@@ -55,15 +55,9 @@ def	requestsign( message,signKey):
 		
 if __name__ == '__main__':
 	
-	signKey='zsdfyreuoyamdphhaweyrjbvzkgfdycs'
+	signKey='11'
 	message= {
 	"txndir":"Q",
-	"busicd":"VOID",
-	"inscd":"10134001",
-	"mchntid":"402077158140001",
-	"txamt":"000000000495",
-	"orderNum":"201710250018",
-	"origOrderNum":"201710250008",
 	"sign":"4b44f647367082d0d6d8e46a8ae929788fd6b5d8"
 	}
 	requestsign(message,signKey)
